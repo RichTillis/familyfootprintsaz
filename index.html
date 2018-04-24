@@ -40,109 +40,42 @@
 		<div class="preloader_image"></div>
 	</div>
 
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">
-				<i class="rt-icon2-cross2"></i>
-			</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form form-inline" action="./">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="theme_button">Search</button>
-			</form>
-		</div>
-	</div>
-
-	<!-- Unyson messages modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
-		</div>
-	</div>
-	<!-- eof .modal -->
-
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
 
-			<!-- template sections -->
-
-			<section class="page_topline cs table_section table_section_md columns_padding_0">
-				<div class="container-fluid">
+			<header class="page_header bordered_items toggler-xs-right seafoam-box-shadow">
+				<div class="container-fluid header_white page_toplogo table_section table_section_md ls">
 					<div class="row">
-						<div class="col-md-3 text-center text-md-left"></div>
-
-						<div class="col-md-6 text-center divided_content">
-
-							<div>
-								<div class="media small-teaser">
-									<div class="media-left">
-										<i class="fa fa-user highlight fontsize_16"></i>
-									</div>
-									<div class="media-body">
-										623-363-8462
-									</div>
-								</div>
-							</div>
-
-							<div>
-								<div class="media small-teaser">
-									<div class="media-left">
-										<i class="fa fa-map-marker highlight fontsize_16"></i>
-									</div>
-									<div class="media-body">
-										1234 Your Address Tucson, AZ
-									</div>
-								</div>
-							</div>
-
-							<div>
-								<div class="media small-teaser">
-									<div class="media-left">
-										<i class="fa fa-envelope highlight fontsize_16"></i>
-									</div>
-									<div class="media-body">
-										terry@familyfootprintsaz.com
-									</div>
-								</div>
-							</div>
+						<div class="col-md-4 text-center text-md-left">
+							<a href="./" class="logo">
+								Family Footprints AZ
+							</a>
+							<!-- header toggler -->
+							<span class="toggle_menu">
+								<span></span>
+							</span>
 
 						</div>
+						<div class="col-md-8 text-center text-md-right">
 
-						<div class="col-md-3 text-center text-md-right bottommargin_0">
-							<!--<a href="#appointment" class="theme_button color1 margin_0">Make an appointment</a>-->
+							<div class="inline-block">
+								<a href="#" class="social-icon border-icon color-icon rounded-icon highlight fa fa-envelope"></a>
+								<a href="#" class="social-icon border-icon color-icon rounded-icon soc-facebook"></a>
+								<a href="#" class="social-icon border-icon color-icon rounded-icon soc-google"></a>
+								<a href="#" class="social-icon border-icon color-icon rounded-icon highlight fa fa-phone"></a>
+							</div>
+
 						</div>
 
 					</div>
 				</div>
-			</section>
-
-			<header class="page_header header_white table_section columns_padding_0 toggler-xs-right">
-				<div class="container-fluid">
+				<div class="container-fluid header_seafoam">
 					<div class="row">
-						<div class="col-md-3 col-sm-5">
-							<a href="index.html" class="logo">
-								Family </br> Footprints AZ
-							</a>
-							<!-- header toggler -->
-							<span class="toggle_menu visible-xs">
-								<span></span>
-							</span>
-						</div>
-						<div class="col-md-6 col-sm-2 text-center">
+						<div class="col-sm-12 text-center">
 							<!-- main nav start -->
 							<nav class="mainmenu_wrapper">
-								<ul class="mainmenu nav sf-menu">
+								<ul class="mainmenu nav sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
 									<li class="active">
 										<a href="index.html">Home</a>
 									</li>
@@ -154,10 +87,10 @@
 
 									<!-- Services -->
 									<li>
-										<a href="services.html">Services</a>
-										<ul>
+										<a href="services.html" class="sf-with-ul">Services</a>
+										<ul style="margin-top: 5px; display: none;">
 											<li>
-												<a href="#">Post Adoption Search</a>												
+												<a href="#">Post Adoption Search</a>
 											</li>
 											<li>
 												<a href="#">Sibling Search</a>
@@ -180,8 +113,8 @@
 
 									<!-- contacts -->
 									<li>
-										<a href="contact.html">Start Your Search</a>
-										<ul>
+										<a href="contact.html" class="sf-with-ul">Start Your Search</a>
+										<ul style="margin-top: 5px; display: none;">
 											<li>
 												<a href="contact.html">Contact 1</a>
 											</li>
@@ -196,29 +129,9 @@
 											</li>
 										</ul>
 									</li>
-									<!-- eof contacts -->
 								</ul>
 							</nav>
 							<!-- eof main nav -->
-							<span class="toggle_menu hidden-xs">
-								<span></span>
-							</span>
-						</div>
-						<div class="col-md-3 col-sm-5 text-right hidden-xs lightgreylinks">
-							<div class="page_social_icons divided_content">
-								<span>
-									<a class="social-icon soc-facebook" href="#" title="Facebook"></a>
-								</span>
-								<span>
-									<a class="social-icon soc-twitter" href="#" title="Twitter"></a>
-								</span>
-								<span>
-									<a class="social-icon soc-google" href="#" title="Google"></a>
-								</span>
-								<span>
-									<a class="social-icon soc-linkedin" href="#" title="LinkedIn"></a>
-								</span>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -231,127 +144,39 @@
 						<li>
 							<img src="images/image-ideas/website-photo-1-cropped.png" alt="">
 							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInRight">
-													<h3>
-														Family Footprints AZ
-													</h3>
-												</div>
-												<div class="intro-layer" data-animation="fadeInLeft">
-													<p class="small-text grey">
-														Post adoption search and discovery
-													</p>
-												</div>
+								<div class="col-sm-12 text-center">
+									<div class="slide_description_wrapper">
+										<div class="slide_description">
+											<div class="intro-layer" data-animation="fadeInRight">
+												<h3 class="top">
+													Family Footprints AZ
+												</h3>
 											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-						<li>
-							<img src="images/image-ideas/website-photo-2-cropped.png" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInRight">
-													<h3>
-														Family Footprints AZ
-													</h3>
-												</div>
-												<div class="intro-layer" data-animation="fadeInLeft">
-													<p class="small-text grey">
-														Post adoption search and discovery
-													</p>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-						<li>
-							<img src="images/image-ideas/website-photo-5-cropped.png" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInRight">
-													<h3>
-														Family Footprints AZ
-													</h3>
-												</div>
-												<div class="intro-layer" data-animation="fadeInLeft">
-													<p class="small-text grey">
-														Post adoption search and discovery
-													</p>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-						<li>
-							<img src="images/image-ideas/website-photo-28-cropped.png" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInRight">
-													<h3>
-														Family Footprints AZ
-													</h3>
-												</div>
-												<div class="intro-layer" data-animation="fadeInLeft">
-													<p class="small-text grey">
-														Post adoption search and discovery
-													</p>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
 
-
+											<div class="intro-layer" data-animation="fadeInLeft">
+												<p class="jumbotron-pill small-text grey">
+													Post adoption search and discovery
+												</p>
+											</div>
+										</div>
+										<!-- eof .slide_description -->
+									</div>
+									<!-- eof .slide_description_wrapper -->
+								</div>
+								<!-- eof .col-* -->
+							</div>
+							<!-- eof .container -->
+						</li>
 					</ul>
 				</div>
 				<!-- eof flexslider -->
 			</section>
 
-			<section id="services" class="ls section_padding_top_130 section_padding_bottom_100">
+			<section id="services" class="ls section_padding_top_50 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2 class="section_header with_icon">What We Can Offer</h2>
+							<h2 class="section_header with_icon">How I Can Help</h2>
 							<p>
 								Porchetta dolor magna ipsum. Irure beef ribs chicken dolore, laboris filet mignon ribeye bacon swine pork loin commodo pork
 								chop corned beef hamburger.
@@ -359,94 +184,41 @@
 						</div>
 					</div>
 					<div class="row columns_padding_0 columns_margin_0 fontsize_16">
-						<div class="col-md-3 col-sm-6">
+						<div class="col-md-4 col-sm-9">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/relationship.png" alt="" />
 								<h4>
-									<a href="service-single.html">Relationship</a>
+									<a href="service-single.html">Post Adoption Searches</a>
 								</h4>
 								<p>
-									A therapy that helps establish a more profound ground for healthy relationship.
+									Helping adoptees or birth parents to reunite with a first or birth family
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6">
+						<div class="col-md-4 col-sm-9">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/mental.png" alt="" />
 								<h4>
-									<a href="service-single.html">Mental health</a>
+									<a href="service-single.html">Subling Searching</a>
 								</h4>
 								<p>
-									Improve your focus, relieve stress and anxiety, and develop creativity.
+									I can assist in finding missing persons, through the use of proven investigative techniques and resources available only
+									to licensed private investigators
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 clear-sm">
+						<div class="col-md-4 col-sm-9">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/feelings.png" alt="" />
 								<h4>
-									<a href="service-single.html">Feelings</a>
+									<a href="service-single.html">DNA Discovery</a>
 								</h4>
 								<p>
 									Achieve a better level of your well-being and the ability to manage feelings.
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="with_padding text-center teaser hover_shadow">
-								<img src="images/service-icons/conflicting.png" alt="" />
-								<h4>
-									<a href="service-single.html">Conflicting</a>
-								</h4>
-								<p>
-									Invaluable insight into the knowledge of reducing conflict in relationship.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 clear-lg clear-md clear-sm">
-							<div class="with_padding text-center teaser hover_shadow">
-								<img src="images/service-icons/meditation.png" alt="" />
-								<h4>
-									<a href="service-single.html">Meditation</a>
-								</h4>
-								<p>
-									Learn how to deal with difficult emotions and feelings by using healthy strategies.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="with_padding text-center teaser hover_shadow">
-								<img src="images/service-icons/depression.png" alt="" />
-								<h4>
-									<a href="service-single.html">Depression</a>
-								</h4>
-								<p>
-									If your depression is keeping you from living your life don’t hesitate to seek help.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 clear-sm">
-							<div class="with_padding text-center teaser hover_shadow">
-								<img src="images/service-icons/mind.png" alt="" />
-								<h4>
-									<a href="service-single.html">Mind Games</a>
-								</h4>
-								<p>
-									It is crucial to understand how to prevent others from playing such games with you.
-								</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="with_padding text-center teaser hover_shadow">
-								<img src="images/service-icons/relaxation.png" alt="" />
-								<h4>
-									<a href="service-single.html">Relaxation</a>
-								</h4>
-								<p>
-									Focus your attention on calmness and increase your personal awareness.
-								</p>
-							</div>
-						</div>
+
 					</div>
 				</div>
 			</section>
