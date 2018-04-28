@@ -1508,7 +1508,7 @@ body {
   font-family: "Muli", sans-serif;
   font-size: 18px;
   font-weight: 300;
-  line-height: 28px;
+  /* line-height: 28px; */
   background-color: #ffffff;
   background-color: #ccc;
 }
@@ -6005,6 +6005,7 @@ a.logo.vertical_logo img {
   margin: 0;
   padding: 0;
   height: auto;
+  background: white;
 }
 
 .page_header.affix {
@@ -8385,16 +8386,16 @@ body.active-side-header.slide-right .page_header_side {
   left: 0;
   height: 100%;
   font-size: 0;
-  z-index: 2;
+  /* z-index: 2; */
   /* padding: 50px 0 50px; */
 }
 
-@media (min-width: 600px) {
-  .boxed .intro_section .slide_description_wrapper {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-}
+/* @media (min-width: 600px) {
+  .boxed .intro_section  {
+    /* padding-left: 60px;
+    padding-right: 60px; */
+  /* } */
+/* } */
 
 .intro_section .slide_description_wrapper .slide_description {
   font-size: 16px;
@@ -8402,8 +8403,10 @@ body.active-side-header.slide-right .page_header_side {
 
 .intro_section .slide_description_wrapper:before,
 .intro_section .slide_description {
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .intro_section .slide_description_wrapper:before {
@@ -8422,11 +8425,11 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .intro_section h4 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .intro_section h3 {
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 0;
   text-shadow: 0.015em 0 0.2em rgba(45, 104, 101, 0.5);
 }
@@ -8437,7 +8440,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (min-width: 500px) {
   .intro_section h3 {
-    font-size: 60px;
+    font-size: 30px;
   }
 
   .intro_section .small-text {
@@ -8451,7 +8454,7 @@ body.active-side-header.slide-right .page_header_side {
   }
 
   .intro_section h3 {
-    font-size: 80px;
+    font-size: 30px;
   }
 
   .intro_section .small-text {
@@ -8467,7 +8470,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (min-width: 1200px) {
   .intro_section h3 {
-    font-size: 100px;
+    font-size: 30px;
   }
 
   .intro_section .small-text {
@@ -8477,13 +8480,13 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (min-width: 1450px) {
   .intro_section h3 {
-    font-size: 120px;
+    font-size: 30px;
   }
 }
 
 @media (min-width: 1700px) {
   .intro_section h3 {
-    font-size: 150px;
+    font-size: 110px;
   }
 }
 
@@ -8519,7 +8522,7 @@ body.active-side-header.slide-right .page_header_side {
 
   .intro_section .slide_description_wrapper {
     padding: 0;
-    position: static;
+    /* position: static; */
   }
 
   .intro_section .flex-direction-nav .flex-prev {
