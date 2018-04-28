@@ -4791,7 +4791,7 @@ body.boxed {
   text-align: left;
   margin-left: 0;
   margin-right: auto;
-  width: 30px;
+  /* width: 30px; */
 }
 
 .text-center .divider_30_1 {
@@ -4960,6 +4960,10 @@ body.boxed {
 
 .toppadding_60 {
   padding-top: 60px;
+}
+
+.bottompadding_5 {
+  padding-bottom: 5px;
 }
 
 .bottompadding_10 {
