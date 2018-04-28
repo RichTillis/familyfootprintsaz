@@ -10,8 +10,8 @@
 	<title>Family Footprints AZ</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<![endif]-->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,135 +24,150 @@
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 	<!--[if lt IE 9]>
-		<script src="js/vendor/html5shiv.min.js"></script>
-		<script src="js/vendor/respond.min.js"></script>
-		<script src="js/vendor/jquery-1.12.4.min.js"></script>
-	<![endif]-->
+			<script src="js/vendor/html5shiv.min.js"></script>
+			<script src="js/vendor/respond.min.js"></script>
+			<script src="js/vendor/jquery-1.12.4.min.js"></script>
+		<![endif]-->
 
 </head>
 
 <body>
 	<!--[if lt IE 9]>
-		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
+				<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+			<![endif]-->
 
 	<div class="preloader">
 		<div class="preloader_image"></div>
 	</div>
 
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">
-				<i class="rt-icon2-cross2"></i>
-			</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form form-inline" action="./">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="theme_button">Search</button>
-			</form>
-		</div>
-	</div>
-
-	<!-- Unyson messages modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
-		</div>
-	</div>
-	<!-- eof .modal -->
-
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
 
-			<header class="page_header bordered_items toggler-xs-right seafoam-box-shadow">
-				<div class="container-fluid header_white page_toplogo table_section table_section_md ls">
+			<!-- template sections -->
+
+			<section class="page_topline cs table_section table_section_md columns_padding_0">
+				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-4 text-center text-md-left">
-							<a href="./" class="logo">
-								Family Footprints AZ
-							</a>
-							<!-- header toggler -->
-							<span class="toggle_menu">
-								<span></span>
-							</span>
+						<div class="col-md-3 text-center text-md-left"></div>
 
-						</div>
-						<div class="col-md-8 text-center text-md-right">
+						<div class="col-md-6 text-center divided_content">
 
-							<div class="inline-block">
-								<a href="#" class="social-icon border-icon color-icon rounded-icon highlight fa fa-envelope"></a>
-								<a href="#" class="social-icon border-icon color-icon rounded-icon soc-facebook"></a>
-								<a href="#" class="social-icon border-icon color-icon rounded-icon soc-google"></a>
-								<a href="#" class="social-icon border-icon color-icon rounded-icon highlight fa fa-phone"></a>
+							<div>
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-user highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										623-363-8462
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-map-marker highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										1234 Your PO Box Address Tucson, AZ
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-envelope highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										terry@familyfootprintsaz.com
+									</div>
+								</div>
 							</div>
 
 						</div>
 
+						<div class="col-md-3 text-center text-md-right bottommargin_0">
+							<!--<a href="#appointment" class="theme_button color1 margin_0">Make an appointment</a>-->
+						</div>
+
 					</div>
 				</div>
-				<div class="container-fluid header_seafoam">
+			</section>
+
+			<header class="page_header header_white table_section columns_padding_0 toggler-xs-right">
+				<div class="container-fluid">
 					<div class="row">
-						<div class="col-sm-12 text-center">
+						<div class="col-md-2 col-sm-5">
+							<a href="index.html" class="logo">
+								Family </br> Footprints AZ
+							</a>
+							<!-- header toggler -->
+							<span class="toggle_menu visible-xs">
+								<span></span>
+							</span>
+						</div>
+						<div class="col-md-9 col-sm-2 text-center">
 							<!-- main nav start -->
 							<nav class="mainmenu_wrapper">
-									<ul class="mainmenu nav sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
-										<li class="active">
-											<a href="index.html">Home</a>
-										</li>
-	
-										<!-- My Story -->
-										<li>
-											<a href="about.html">My Story</a>
-										</li>
-	
-										<!-- Services -->
-										<li>
-											<a href="services.html" class="sf-with-ul">Services</a>
-											<ul style="margin-top: 5px; display: none;">
-												<li>
-													<a href="#">Post Adoption Search</a>
-												</li>
-												<li>
-													<a href="#">Sibling Search</a>
-												</li>
-												<li>
-													<a href="#">DNA</a>
-												</li>
-											</ul>
-										</li>
-	
-										<!-- Testimonials -->
-										<li>
-											<a href="testimonials.html">Testimonials</a>
-										</li>
-	
-										<!-- CI Program -->
-										<li>
-											<a href="ci-program.html">The CI Program</a>
-										</li>
-	
-										<!-- contacts -->
-										<li>
-											<a href="contact.html" class="sf-with-ul">Start Your Search</a>
-										</li>
-										<!-- FAQ -->
-										<li>
-											<a href="faq.html">FAQs</a>
-										</li>
-									</ul>
-								</nav>
+								<ul class="mainmenu nav sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+									<li>
+										<a href="index.html">Home</a>
+									</li>
+
+									<!-- My Story -->
+									<li class="active">
+										<a href="about.html">My Story</a>
+									</li>
+
+									<!-- Services -->
+									<li>
+										<a class="sf-with-ul">Services</a>
+										<ul style="margin-top: 5px; display: none;">
+											<li>
+												<a href="services.html">Post Adoption Search</a>
+											</li>
+											<li>
+												<a href="services.html">Sibling Search</a>
+											</li>
+											<li>
+												<a href="services.html">DNA</a>
+											</li>
+										</ul>
+									</li>
+
+									<!-- Testimonials -->
+									<li>
+										<a href="testimonials.html">Testimonials</a>
+									</li>
+
+									<!-- CI Program -->
+									<li>
+										<a href="ci-program.html">The CI Program</a>
+									</li>
+
+									<!-- contacts -->
+									<li>
+										<a href="contact.html" class="sf-with-ul">Start Your Search</a>
+									</li>
+									<!-- FAQ -->
+									<li>
+										<a href="faq.html">FAQs</a>
+									</li>
+								</ul>
+							</nav>
 							<!-- eof main nav -->
+							<span class="toggle_menu hidden-xs">
+								<span></span>
+							</span>
+						</div>
+						<div class="col-md-1 col-sm-5 text-right hidden-xs">
+							<div class="page_social_icons divided_content text-center">
+								<span>
+									<a href="#" class="social-icon color-icon border-icon rounded-icon soc-facebook"></a>
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -162,7 +177,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>My Story Image</h2>
+							<h2>My Story</h2>
 						</div>
 					</div>
 				</div>
