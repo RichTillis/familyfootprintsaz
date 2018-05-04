@@ -1340,13 +1340,13 @@ li.media:after {
   max-width: 60px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .big-left-media .media-left img,
   .big-left-media .media-right img {
     max-width: 120px;
     margin-right: 20px;
   }
-}
+} */
 
 td .media-body {
   width: auto;
