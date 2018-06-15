@@ -5852,6 +5852,8 @@ a.logo {
   line-height: 45px;
 }
 
+
+
 a.logo .small-text {
   display: block;
   font-size: 9px;
@@ -5986,7 +5988,6 @@ a.logo.vertical_logo img {
 .page_header_side .logo-meta {
   display: block !important;
 }
-
 .lt-ie9 .page_header_wrapper {
   height: auto !important;
 }
@@ -11964,7 +11965,7 @@ a.color-icon.soc-feedburner {
 }
 
 a.color-icon.soc-linkedin {
-  color: #3371b7;
+  color: #0077B5;
 }
 
 a.color-icon.soc-viadeo {
@@ -13307,4 +13308,10 @@ a.color-icon.border-icon:hover {
 
 .demo-icon a[class*="soc-"]:before {
   font-size: 24px;
+}
+.logo-sub{
+  font-size: 14px;
+}
+.logo-main{
+  font-size: 28px;
 }
