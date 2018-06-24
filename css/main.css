@@ -3436,6 +3436,16 @@ div.ppt {
   padding-bottom: 25px;
 }
 
+.section_padding_30 > [class*="container"] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section_padding_40 > [class*="container"] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .section_padding_50 > [class*="container"] {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -13314,4 +13324,43 @@ a.color-icon.border-icon:hover {
 }
 .logo-main{
   font-size: 28px;
+}
+.logo-main-mobile{
+    display: inline-block;
+    word-break: break-word;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    position: relative;
+    z-index: 2;
+    padding: 5px 0;
+    min-height: 60px;
+    line-height: 45px;
+    color: white !important;
+}
+.logo-main-mobile-sub{
+  display: inline-block;
+    word-break: break-word;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    position: relative;
+    z-index: 2;
+    padding: 5px 0;
+    min-height: 60px;
+    line-height: 20px;
+}
+.logo-main-mobile-background{
+  background-color: #91d0cc;
+}
+.color-white{
+  color: white !important;
+}
+.padding-left-40{
+  padding-left: 40px !important;
+}
+.padding-right-80{
+  padding-right: 80px !important;
 }
