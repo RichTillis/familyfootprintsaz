@@ -8439,9 +8439,9 @@ body.active-side-header.slide-right .page_header_side {
   vertical-align: top;
 }
 
-.intro_section .slide_description > div {
+/* .intro_section .slide_description > div {
   margin: 10px 0;
-}
+} */
 
 .intro_section h4 {
   font-size: 20px;
@@ -13320,7 +13320,7 @@ a.color-icon.border-icon:hover {
   font-size: 24px;
 }
 .logo-sub{
-  font-size: 14px;
+  font-size: 12px;
 }
 .logo-main{
   font-size: 28px;
@@ -13358,9 +13358,40 @@ a.color-icon.border-icon:hover {
 .color-white{
   color: white !important;
 }
+.background-white{
+  background: white !important;
+}
 .padding-left-40{
   padding-left: 40px !important;
 }
 .padding-right-80{
   padding-right: 80px !important;
+}
+.logo-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: white;
+}
+.top-center{
+  position: absolute;
+  margin-left: 18%;
+  margin-right: -18%;
+  top: 4px;
+}
+.bottom-center{
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 50px;
+  margin-left: 18%;
+    margin-right: -20%;
+    /* text-align: center; */
+}
+.font-size-40{
+  font-size: 36px !important;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.test{
+  font-size: 24px;
 }
