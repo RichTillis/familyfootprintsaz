@@ -13323,16 +13323,16 @@ a.color-icon.border-icon:hover {
   font-size: 24px;
 }
 .logo-sub{
-  font-size: 12px;
+  font-size: 14px;
 }
 .logo-main{
-  font-size: 28px;
+  font-size: 23px;
 }
 .logo-main-mobile{
     display: inline-block;
     word-break: break-word;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Playfair Display", serif;
     line-height: 1;
     position: relative;
@@ -13346,7 +13346,7 @@ a.color-icon.border-icon:hover {
   display: inline-block;
     word-break: break-word;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Playfair Display", serif;
     line-height: 1;
     position: relative;
