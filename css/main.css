@@ -13368,6 +13368,9 @@ a.color-icon.border-icon:hover {
 .background-white{
   background: white !important;
 }
+.padding-left-30{
+  padding-left: 30px;
+}
 .padding-left-40{
   padding-left: 40px !important;
 }
@@ -13413,4 +13416,24 @@ a.color-icon.border-icon:hover {
 }
 .font-size-16{
   font-size: 16px;
+}
+
+.imageright {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.contentleft {
+  width: 600px;
+  padding-left: 30px;
+  padding-right: 40px;
+  float: left;
+}
+.contentright {
+  /* width: 400px; */
+  float: right;
+  padding-left: 8px;
+  padding-right: 30px;
 }
