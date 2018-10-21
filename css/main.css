@@ -13374,6 +13374,9 @@ a.color-icon.border-icon:hover {
 .padding-left-40{
   padding-left: 40px !important;
 }
+.padding-bottom-40{
+  padding-bottom: 40px !important;
+}
 .padding-right-80{
   padding-right: 80px !important;
 }
@@ -13417,23 +13420,12 @@ a.color-icon.border-icon:hover {
 .font-size-16{
   font-size: 16px;
 }
-
-.imageright {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  float: left;
+.ci-mission{
+  font-size: 15px;
 }
-
-.contentleft {
-  width: 600px;
-  padding-left: 30px;
-  padding-right: 40px;
-  float: left;
+.brown-background{
+  background-color: #d9be93;
 }
-.contentright {
-  /* width: 400px; */
-  float: right;
-  padding-left: 8px;
-  padding-right: 30px;
+.padding-left-right-25{
+  padding: 0px 25px 0px 25px;
 }
