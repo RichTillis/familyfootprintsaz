@@ -13429,3 +13429,7 @@ a.color-icon.border-icon:hover {
 .padding-left-right-25{
   padding: 0px 25px 0px 25px;
 }
+.image-box-shadow{
+  padding: 5px;
+  border: solid 1px #EFEFEF;
+}
