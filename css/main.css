@@ -13433,3 +13433,12 @@ a.color-icon.border-icon:hover {
   padding: 5px;
   border: solid 1px #EFEFEF;
 }
+.color-white{
+  color: #fff;
+}
+.brown-background{
+  background-color: #d9be93;
+}
+.underline-text{
+  text-decoration: underline;
+}
