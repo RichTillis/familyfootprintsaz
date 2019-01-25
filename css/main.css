@@ -13442,3 +13442,39 @@ a.color-icon.border-icon:hover {
 .underline-text{
   text-decoration: underline;
 }
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* .sticky + .content {
+  padding-top: 102px;
+} */
+.no-border-radius{
+  border-radius: 0;
+}
+
+.sticky-header {
+  width: 100%;
+  height: 80px; 
+  position: fixed; 
+  top: 0;
+  background: #91d0cc;
+}
+.mobile-header-margin{
+  margin-top: 80px
+}
+
+/* @media(max-width:767px){
+  .mobile-header-margin{
+    margin-top: 80px
+  }
+} */
+/* .main{
+  margin-top: 80px;
+} */
