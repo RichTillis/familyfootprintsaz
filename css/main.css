@@ -5057,6 +5057,7 @@ body.boxed {
 .fontsize_16 {
   font-size: 16px;
   line-height: 23px;
+  color: #444444 !important;
 }
 
 .fontsize_18 {
@@ -8018,6 +8019,7 @@ body.active-side-header.slide-right .page_header_side {
   font-size: 14px;
   position: relative;
   z-index: 1001;
+  color: #444444
 }
 
 .page_topline .media {
@@ -13325,9 +13327,11 @@ a.color-icon.border-icon:hover {
 .logo-sub{
   font-size: 14px;
   line-height: 28px;
+  color: #444444;
 }
 .logo-main{
   font-size: 23px;
+  color: #444444;
 }
 .logo-main-mobile{
     display: inline-block;
@@ -13341,7 +13345,7 @@ a.color-icon.border-icon:hover {
     padding: 5px 0;
     min-height: 60px;
     line-height: 45px;
-    color: white !important;
+    color: #444444 !important;
 }
 .logo-main-mobile-sub{
   display: inline-block;
@@ -13355,6 +13359,7 @@ a.color-icon.border-icon:hover {
     padding: 5px 0;
     min-height: 60px;
     line-height: 20px;
+    color: #444444 !important;
 }
 .logo-main-mobile-background{
   background-color: #91d0cc  !important;
