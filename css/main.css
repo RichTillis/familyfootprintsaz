@@ -5056,12 +5056,16 @@ body.boxed {
 
 .fontsize_16 {
   font-size: 16px;
+  font-weight: bold;
   line-height: 23px;
   color: #444444 !important;
 }
 
 .fontsize_18 {
-  font-size: 18px;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  line-height: 25px !important;
+  color: #444444 !important;
 }
 
 .fontsize_20 {
@@ -8016,7 +8020,7 @@ body.active-side-header.slide-right .page_header_side {
 */
 /* topline styles */
 .page_topline {
-  font-size: 14px;
+  /* font-size: 14px; */
   position: relative;
   z-index: 1001;
   color: #444444
